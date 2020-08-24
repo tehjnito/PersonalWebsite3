@@ -53,6 +53,10 @@ code {
   -webkit-text-fill-color: transparent;
 }
 
+.list-style-square{
+  list-style: square;
+}
+
 .pulseFade{
   animation: fadeIn;
   animation-duration: 1s;

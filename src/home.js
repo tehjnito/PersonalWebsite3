@@ -62,10 +62,12 @@ function Home() {
                 <p><br/><hr/><br/></p>
                 <p>
                     Outside of tech stuff...
-                    <br/>I enjoy listening to and making music <span class="emoji emoji-music1"></span>
-                    <br/>anime <span class="emoji emoji-tv"></span>
-                    <br/>watching cars go <i>"vrooooommm"</i> <span class="emoji emoji-md emoji-car1"></span>
-                    <br/> and staring into a star-filled night sky <span class="emoji emoji-stars1"></span>
+                    <ul className="list-style-square">
+                        <li>I enjoy listening to and making music <span class="emoji emoji-music1"></span></li>
+                        <li>watching anime <span class="emoji emoji-tv"></span></li>
+                        <li>watching cars go <i>"vrooooommm"</i> <span class="emoji emoji-md emoji-car1"></span></li>
+                        <li>and staring into a star-filled night sky <span class="emoji emoji-stars1"></span></li>
+                    </ul>
                 </p>
             </section>
         </section>
