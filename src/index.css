@@ -98,8 +98,8 @@ code {
 .page-section > .content{
   font-size: 22px;
   color: #444;
-  padding:15px 5px;
-  min-height: 300px;
+  padding:25px;
+  /* min-height: 300px; */
   border-radius: 3px;;
   background-color: #fefefe;
 }
@@ -139,6 +139,35 @@ code {
   background-image: url(https://flagcdn.com/jm.svg);
 }
 
+.emoji{
+  position: relative;
+  top: 2px;
+  display: inline-block;
+  width: 24px;
+  height: 1em;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.emoji.emoji-md{
+  top: 16px;
+  width: 36px;height: 2em;
+}
+.emoji.emoji-grad{
+  background-image: url(./img/graduation-hat-clipart.png);
+}
+.emoji.emoji-music1{
+  background-image: url(./img/quaver.png);
+}
+.emoji.emoji-tv{
+  background-image: url(./img/tv.png);
+}
+.emoji.emoji-car1{
+  background-image: url(./img/speeding.png);
+}
+.emoji.emoji-stars1{
+  background-image: url(./img/stars.png);
+}
 
 /** ANIMATIONS **/
 

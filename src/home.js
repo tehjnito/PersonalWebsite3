@@ -9,6 +9,7 @@ function Home() {
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
             {/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/fontawesome.min.css" integrity="sha512-8jdwayz5n8F2cnW26l9vpV6+yGOcRAqz6HTu+DQ3FtVIAts2gTdlFZOGpYhvBMXkWEgxPN3Y22UWyZXuDowNLA==" crossorigin="anonymous" /> */}
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+            <script async src="https://cdnjs.cloudflare.com/ajax/libs/emojione/4.5.0/lib/js/emojione.min.js" integrity="sha512-E2Ai/A9+KcoBm0lvfnd5krbr7TWUigQGWTfcoMToNpfmCvQKkZdTbpwyIM4PFbCGMtSmMjE/DAXGjVXpWGdFaQ==" crossorigin="anonymous"></script>
         </Helmet>
         <section id="MainNavigation" className="col-12">
             <nav className="col">
@@ -50,14 +51,21 @@ function Home() {
             <header className="section-header">
                 <h2 className="title text-gradient-1"><i>#</i>About_Me</h2>
             </header>
-            <section className="content xshadow-lg text-italic text-center">
-                <p>Hii everyone, my name is Tehjéan.
-                    <br/>I'm a budding Software Dev from Jamaica
+            <section className="content xshadow-lg xtext-italic text-center">
+                <p>I'm Tehjéan and I'm an application dev from Jamaica
                     <span className="flag flag-jm"></span>
                 </p>
-                <p>I would like to put more stuff here...
-                    <br/>But unfortunately I'm actually not very interesting...
-                    <br/>:(
+                <p>
+                    <span class="emoji emoji-grad"></span>&nbsp;I'm a 2018 NCU (Northern Caribbean University) Graduate
+                    <br/>
+                </p>
+                <p><br/><hr/><br/></p>
+                <p>
+                    Outside of tech stuff...
+                    <br/>I enjoy listening to and making music <span class="emoji emoji-music1"></span>
+                    <br/>anime <span class="emoji emoji-tv"></span>
+                    <br/>watching cars go <i>"vrooooommm"</i> <span class="emoji emoji-md emoji-car1"></span>
+                    <br/> and staring into a star-filled night sky <span class="emoji emoji-stars1"></span>
                 </p>
             </section>
         </section>
