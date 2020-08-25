@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className="row page-padding">
         <Helmet>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
             {/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/fontawesome.min.css" integrity="sha512-8jdwayz5n8F2cnW26l9vpV6+yGOcRAqz6HTu+DQ3FtVIAts2gTdlFZOGpYhvBMXkWEgxPN3Y22UWyZXuDowNLA==" crossorigin="anonymous" /> */}
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
             <script async src="https://cdnjs.cloudflare.com/ajax/libs/emojione/4.5.0/lib/js/emojione.min.js" integrity="sha512-E2Ai/A9+KcoBm0lvfnd5krbr7TWUigQGWTfcoMToNpfmCvQKkZdTbpwyIM4PFbCGMtSmMjE/DAXGjVXpWGdFaQ==" crossorigin="anonymous"></script>
@@ -51,7 +51,7 @@ function Home() {
             <header className="section-header">
                 <h2 className="title text-gradient-1"><i>#</i>About_Me</h2>
             </header>
-            <section className="content xshadow-lg xtext-italic text-center">
+            <section className="content offset-md-3 col-md-6 xshadow-lg xtext-italic text-center">
                 <p>I'm Tehjéan and I'm an application dev from Jamaica
                     <span className="flag flag-jm"></span>
                 </p>
@@ -69,6 +69,22 @@ function Home() {
                         <li>and staring into a star-filled night sky <span class="emoji emoji-stars1"></span></li>
                     </ul>
                 </p>
+            </section>
+        </section>
+        <section id="TechStack" className="col-12 page-section">
+            <header className="section-header">
+                <h2 className="title text-gradient-1"><i>#</i>My_TechStack</h2>
+            </header>
+            <section className="content offset-md-3 col-md-6 xshadow-lg xtext-italic text-center">
+                <h4><br/><strong>These are the tools I use to create my tech</strong><br/><br/></h4>
+                <ul className="list-style-none">
+                    <li><a target="_blank" href="https://nodejs.org/en/">Nodejs</a>&nbsp;<small>(ExpressJS)</small></li>
+                    <li><a target="_blank" href="https://reactjs.org/">ReactJS</a>&nbsp;<small>(Nextjs/ReactNative)</small></li>
+                    <li><a target="_blank" href="https://www.mysql.com/">MySQL</a></li>
+                    <li><a target="_blank" href="https://firebase.google.com/">Firebase</a>&nbsp;<small>(Authentication/Storage/Notifications)</small></li>
+                    <li><a target="_blank" href="https://github.com/puppeteer/puppeteer/">Puppeteer</a>&nbsp;<small>(Don't ask lol)</small></li>
+                    <li><a target="_blank" href="https://laravel.com/">PHP/Laravel</a>&nbsp;<small>(sometimes-ish)</small></li>
+                </ul>
             </section>
         </section>
     </div>

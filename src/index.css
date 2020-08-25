@@ -53,6 +53,9 @@ code {
   -webkit-text-fill-color: transparent;
 }
 
+.list-style-none{
+  list-style: none;
+}
 .list-style-square{
   list-style: square;
 }
