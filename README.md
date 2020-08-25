@@ -1,4 +1,4 @@
-#[https://tehjean.herokuapp.com/](https://tehjean.herokuapp.com/)
+[https://tehjean.herokuapp.com/](https://tehjean.herokuapp.com/)
 
 Another Iteration of my personal website.
 Where are the first 2? - Not gonna say, cause they're embarassing.
