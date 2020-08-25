@@ -176,6 +176,32 @@ code {
   background-image: url(./img/stars.png);
 }
 
+#PortfolioTab a{
+  background:none !important;
+}
+#PortfolioTab a:not(.active){
+  opacity:0.5;
+}
+#PortfolioTab a > span{
+  padding: 10px;
+  border-radius: 7px;
+  color:#fff;
+  text-transform: uppercase;
+  background-color: #b3a2e8;
+}
+#PortfolioTab a span.fa-stack{
+  top: -3px;
+  margin-right:7px;
+  display:inline-block;
+  width:auto;height: auto;
+  color:#f3f3f3;
+  opacity:0.8;
+}
+#PortfolioTab a.active span.fa-stack{
+  color:#000;
+  opacity:0.65;
+}
+
 /** ANIMATIONS **/
 
 

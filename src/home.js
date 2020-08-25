@@ -17,7 +17,7 @@ function Home() {
                 <ul className="float-right">
                     <li><a href="#AboutMe">About Me</a></li>
                     &nbsp;<big className="middot"><strong>&middot;</strong></big>&nbsp;
-                    <li><a href="javascript:void(0)">Portfolio</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
                     &nbsp;<big className="middot"><strong>&middot;</strong></big>&nbsp;
                     <li><a href="javascript:void(0)">Resumé</a></li>
                 </ul>
@@ -35,6 +35,7 @@ function Home() {
         </section>
         <section className="col-12">
             <section style={Styles.imageFirstContainer}>
+                <section style={{...Styles.imagePulse, ...{animationDelay:'0.5s',animationDuration:'2s'}}}></section>
                 <section style={Styles.imagePulse}></section>
                 <section className="anim" style={Styles.imageSecondContainer}>
                     <section style={Styles.imageContainer}></section>
@@ -48,11 +49,11 @@ function Home() {
             </section>
             <hr/>
         </section>
-        <section id="AboutMe" className="col-12 page-section">
+        <section id="AboutMe" className="xcol-12 xoffset-md-3 col-lg-6 page-section">
             <header className="section-header">
                 <h2 className="title text-gradient-1"><i>#</i>About_Me</h2>
             </header>
-            <section className="content offset-md-3 col-md-6 xshadow-lg xtext-italic text-center">
+            <section className="content xshadow-lg xtext-italic text-center">
                 <p>I'm Tehjéan and I'm an application dev from Jamaica
                     <span className="flag flag-jm"></span>
                 </p>
@@ -72,11 +73,11 @@ function Home() {
                 </p>
             </section>
         </section>
-        <section id="TechStack" className="col-12 page-section">
+        <section id="TechStack" className="xcol-12 xoffset-md-3 col-lg-6 page-section">
             <header className="section-header">
                 <h2 className="title text-gradient-1"><i>#</i>My_TechStack</h2>
             </header>
-            <section className="content offset-md-3 col-md-6 xshadow-lg xtext-italic text-center">
+            <section className="content xshadow-lg xtext-italic text-center">
                 <h4><br/><strong>These are the tools I use to create my tech</strong><br/><br/></h4>
                 <ul className="list-style-none">
                     <li><a target="_blank" href="https://nodejs.org/en/">Nodejs</a> <small>(ExpressJS)</small></li>
@@ -86,6 +87,61 @@ function Home() {
                     <li><a target="_blank" href="https://github.com/puppeteer/puppeteer/">Puppeteer</a> <small>(Don't ask lol)</small></li>
                     <li><a target="_blank" href="https://laravel.com/">PHP/Laravel</a> <small>(sometimes-ish)</small></li>
                 </ul>
+            </section>
+        </section>
+        <section id="Portfolio" className="col-12 page-section">
+            <header className="section-header">
+                <h2 className="title text-gradient-1"><i>#</i>Portfolio</h2>
+            </header>
+            <section style={{minHeight:'600px'}} className="content">
+                <ul class="nav nav-pills flex-column flex-md-row nav-justified pt-3 mb-3" id="PortfolioTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="pill" href="#portfolio-web" role="tab" aria-controls="portfolio-web" aria-selected="true">
+                            <span className="shadow">
+                                <span class="fa-stack">
+                                    <i class="fa fa-sm fa-code text-bold"></i>
+                                </span>
+                                <span className="text">&nbsp;Web Dev</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#portfolio-mobile" role="tab" aria-controls="portfolio-mobile" aria-selected="false">
+                            <span className="shadow">
+                                <span class="fa-stack">
+                                    <i class="fa fa-sm fa-android"></i>
+                                </span>
+                                <span className="text">&nbsp;Mobile Dev</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#portfolio-game" role="tab" aria-controls="portfolio-game" aria-selected="false">
+                            <span className="shadow">
+                                <span class="fa-stack">
+                                    <i class="fa fa-sm fa-gamepad"></i>
+                                </span>
+                                <span className="text">&nbsp;Game Dev</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#portfolio-photo" role="tab" aria-controls="portfolio-photo" aria-selected="false">
+                            <span className="shadow">
+                                <span class="fa-stack">
+                                    <i class="fa fa-sm fa-camera-retro"></i>
+                                </span>
+                                <span className="text">&nbsp;Photo-Editing</span>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="portfolio-tabContent">
+                    <div class="tab-pane fade show active" id="portfolio-web" role="tabpanel" aria-labelledby="portfolio-web-tab">1</div>
+                    <div class="tab-pane fade" id="portfolio-mobile" role="tabpanel" aria-labelledby="portfolio-mobile-tab">2</div>
+                    <div class="tab-pane fade" id="portfolio-game" role="tabpanel" aria-labelledby="portfolio-game-tab">2</div>
+                    <div class="tab-pane fade" id="portfolio-photo" role="tabpanel" aria-labelledby="portfolio-photo-tab">3</div>
+                </div>
             </section>
         </section>
     </div>
@@ -126,7 +182,7 @@ const Styles = {
         padding:'15px',
         borderRadius: '50%',
         backgroundColor:'#a29bfe',
-        background: 'radial-gradient(#6c5ce7,  #D6A2E8)',
+        background: 'radial-gradient(#6c5ce7, #D6A2E8)',
         // boxShadow: '0px 4px 20px 2px rgba(212,212,212,1)',
         boxShadow: '0px 4px 20px 2px #b3a2e8',
         animationName: 'AnimZoom1',
@@ -142,7 +198,7 @@ const Styles = {
         animationTimingFunction: 'ease-in',
         animationIterationCount: 'infinite',
         // animationDirection: 'alternate-reverse',
-        backgroundColor: 'rgba(0,0,0,0.02)'
+        backgroundColor: 'rgba(0,0,0,0.01)'
     },
     imageContainer: {
         position:'relative',
