@@ -62,7 +62,7 @@ function Home() {
                 <p><br/><hr/><br/></p>
                 <p>
                     Outside of tech stuff...
-                    <ul className="list-style-square">
+                    <ul className="list-style-none">
                         <li>I enjoy listening to and making music <span class="emoji emoji-music1"></span></li>
                         <li>watching anime <span class="emoji emoji-tv"></span></li>
                         <li>watching cars go <i>"vrooooommm"</i> <span class="emoji emoji-md emoji-car1"></span></li>
