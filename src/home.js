@@ -79,12 +79,12 @@ function Home() {
             <section className="content offset-md-3 col-md-6 xshadow-lg xtext-italic text-center">
                 <h4><br/><strong>These are the tools I use to create my tech</strong><br/><br/></h4>
                 <ul className="list-style-none">
-                    <li><a target="_blank" href="https://nodejs.org/en/">Nodejs</a>&nbsp;<small>(ExpressJS)</small></li>
-                    <li><a target="_blank" href="https://reactjs.org/">ReactJS</a>&nbsp;<small>(Nextjs/ReactNative)</small></li>
+                    <li><a target="_blank" href="https://nodejs.org/en/">Nodejs</a> <small>(ExpressJS)</small></li>
+                    <li><a target="_blank" href="https://reactjs.org/">ReactJS</a> <small>(Nextjs/ReactNative)</small></li>
                     <li><a target="_blank" href="https://www.mysql.com/">MySQL</a></li>
-                    <li><a target="_blank" href="https://firebase.google.com/">Firebase</a>&nbsp;<small>(Authentication/Storage/Notifications)</small></li>
-                    <li><a target="_blank" href="https://github.com/puppeteer/puppeteer/">Puppeteer</a>&nbsp;<small>(Don't ask lol)</small></li>
-                    <li><a target="_blank" href="https://laravel.com/">PHP/Laravel</a>&nbsp;<small>(sometimes-ish)</small></li>
+                    <li><a target="_blank" href="https://firebase.google.com/">Firebase</a> <small>(Authentication/Storage/Notifications)</small></li>
+                    <li><a target="_blank" href="https://github.com/puppeteer/puppeteer/">Puppeteer</a> <small>(Don't ask lol)</small></li>
+                    <li><a target="_blank" href="https://laravel.com/">PHP/Laravel</a> <small>(sometimes-ish)</small></li>
                 </ul>
             </section>
         </section>
