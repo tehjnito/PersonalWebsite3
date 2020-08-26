@@ -1,7 +1,10 @@
 import React from 'react';
 import { Helmet } from "react-helmet";
 import arrow1 from './img/arrow1.png';
+import grdplz from './img/grdplz.png';
 import WebPortfolio from './portfolio-web';
+import MobilePortfolio from './portfolio-mobile';
+import PortfolioEntry from './portfolio-entry';
 
 function Home() {
   return (
@@ -68,7 +71,7 @@ function Home() {
                     <ul className="list-style-none">
                         <li>I enjoy listening to and making music <span class="emoji emoji-music1"></span></li>
                         <li>watching anime <span class="emoji emoji-tv"></span></li>
-                        <li>watching cars go <i>"vrooooommm"</i> <span class="emoji emoji-md emoji-car1"></span></li>
+                        <li>watching cars go <i>"vrrroooommmm"</i> <span class="emoji emoji-md emoji-car1"></span></li>
                         <li>and staring into a star-filled night sky <span class="emoji emoji-stars1"></span></li>
                     </ul>
                 </p>
@@ -85,6 +88,7 @@ function Home() {
                     <li><a target="_blank" href="https://reactjs.org/">ReactJS</a> <small>(Nextjs/ReactNative)</small></li>
                     <li><a target="_blank" href="https://www.mysql.com/">MySQL</a></li>
                     <li><a target="_blank" href="https://firebase.google.com/">Firebase</a> <small>(Authentication/Storage/Notifications)</small></li>
+                    <li><a target="_blank" href="https://unity.com/">Unity3D</a></li>
                     <li><a target="_blank" href="https://github.com/puppeteer/puppeteer/">Puppeteer</a> <small>(Don't ask lol)</small></li>
                     <li><a target="_blank" href="https://laravel.com/">PHP/Laravel</a> <small>(sometimes-ish)</small></li>
                 </ul>
@@ -139,10 +143,143 @@ function Home() {
                 </ul>
                 <div class="tab-content" id="portfolio-tabContent">
                     <div class="tab-pane fade show active" id="portfolio-web" role="tabpanel" aria-labelledby="portfolio-web-tab">
-                        <WebPortfolio/>
+                        <PortfolioEntry 
+                            featuredImage={"https://tehjnito.surge.sh/_ASSETS/_IMG/Portfolio/WebDev/webja.jpg"}
+                            title="Webja"
+                            techStack="AngularJS, PHP"
+                            renderDescription={
+                                () => {return(
+                                    <p>
+                                        Created in 2017/18, this was a website which allowed people to find and/or advertise across six different categories to the Jamaican population specifically.
+                                    </p>
+                                );}
+                            }/>
+                        <PortfolioEntry 
+                            featuredImage={grdplz}
+                            title="GrandPlaza"
+                            techStack="ReactNative, Firebase, Nextjs, ExpressJS"
+                            renderDescription={
+                                () => {return(
+                                    <p>
+                                        Created in 2019/20, GrandPlaza was a forum where people would be able to share product/services in groups.
+                                        <br/><br/>This platform consisted of an android app and a view-only website.
+                                    </p>
+                                );}
+                            }/>
                     </div>
-                    <div class="tab-pane fade" id="portfolio-mobile" role="tabpanel" aria-labelledby="portfolio-mobile-tab">2</div>
-                    <div class="tab-pane fade" id="portfolio-game" role="tabpanel" aria-labelledby="portfolio-game-tab">2</div>
+                    <div class="tab-pane fade" id="portfolio-mobile" role="tabpanel" aria-labelledby="portfolio-mobile-tab">
+                        <PortfolioEntry 
+                            featuredImage={grdplz}
+                            title="GrandPlaza"
+                            techStack="ReactNative, Firebase, Nextjs, ExpressJS"
+                            renderDescription={
+                                () => {return(
+                                    <p>
+                                        Created in 2019/20, GrandPlaza was a forum where people would be able to share product/services in groups.
+                                        <br/><br/>This platform consisted of an android app and a view-only website.
+                                    </p>
+                                );}
+                            }/>
+                    </div>
+                    <div class="tab-pane fade" id="portfolio-game" role="tabpanel" aria-labelledby="portfolio-game-tab">
+                        <PortfolioEntry 
+                            featuredImage={"https://tehjnito.surge.sh/_ASSETS/_IMG/Portfolio/GameDev/block-fight-thumb.png"}
+                            title="Block Fight"
+                            techStack="Unity3D"
+                            renderDescription={
+                                () => {return(
+                                    <p>
+                                        Created in 2016, this was a single/couch multiplayer platform fighter for PC.
+                                        <br/><i>This kinda got stuck in the prototying phase and was never truly finished :(</i>
+                                        <br/>This was also submitted to <a target="_blank" href="https://thegdwc.com/">GDWC</a> for the 2016 game jam.
+                                        <br/><a target="_blank" href="https://www.youtube.com/watch?v=pF0JjcBq8y8">Watch the gameplay trailer on YouTube</a>
+                                    </p>
+                                );}
+                            }/>
+                        <PortfolioEntry 
+                            featuredImage={"https://tehjnito.surge.sh/_ASSETS/_IMG/Portfolio/GameDev/squash-thumb.gif"}
+                            title="Squash"
+                            techStack="Unity3D"
+                            renderDescription={
+                                () => {return(
+                                    <p>
+                                        *PROTOTYPE*
+                                        <br/>Created in 2015, this was more of an experiment than a real game.
+                                        <br/>Squash was an arcade-physics-based-shooter thing...<small><i>(like I said, "experiment"...)</i></small>
+                                        <br/>The game was played in a team death-match senario, where projectiles fired would cause damage to enemy players,
+                                        however, players have the ability to raise a shield which will block and redirect the direction of the projectiles,
+                                        potentially causing another player's attack to backfire.
+                                        <br/>Players gain points through-out the match by dealing damage to enemies and collecting crystals.
+                                        <br/>You, the player are given three special abilities to help you out in the match.
+                                    </p>
+                                );}
+                            }/>
+                        <PortfolioEntry 
+                            featuredImage={"https://tehjnito.surge.sh/_ASSETS/_IMG/Portfolio/GameDev/tanksalot-thumb.gif"}
+                            title="Tanks-a-lot"
+                            techStack="Unity3D"
+                            renderDescription={
+                                () => {return(
+                                    <p>
+                                        *CLASS PROJECT / CHEESY NAME*
+                                        <br/>Created in 2015 - Single Player Action Game for Android.
+                                        <br/>Ripped the multiplayer tanks project from Unity's tutorial, scrapped their code (mostly) and re-did the logic to turn it into a single player mission based game for android.
+                                    </p>
+                                );}
+                            }/>
+                        <PortfolioEntry 
+                            featuredImage={"https://tehjnito.surge.sh/_ASSETS/_IMG/Portfolio/GameDev/dotsandrings-thumb.png"}
+                            title="Dots and Rings"
+                            techStack="Unity3D"
+                            renderDescription={
+                                () => {return(
+                                    <p>
+                                        *SPRINT*
+                                        <br/>Created in 2016 - Arcade Game for Android.
+                                        <br/>Had a <i>"colorful"</i> idea.
+                                        <br/>Wanted to see how fast I could build it.
+                                        <br/>Got it working in a day, spent the rest of the week trying to find good sounds for it and then added the screen recording feature.
+                                        <br/><a target="_blank" href="https://play.google.com/store/apps/details?id=com.Teejae.DotsandRings&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">Find it on the Play Store!</a>
+                                    </p>
+                                );}
+                            }/>
+                        <PortfolioEntry 
+                            featuredImage={"https://tehjnito.surge.sh/_ASSETS/_IMG/Portfolio/GameDev/greedy-bubble-thumb.png"}
+                            title="Greedy Bubble"
+                            techStack="Unity3D"
+                            renderDescription={
+                                () => {return(
+                                    <p>
+                                        *SPRINT / I'm not good at naming things*
+                                        <br/>Created in 2015 - Arcade Game for Android.
+                                        <br/>Wanted to feel like a Real Game Dev.
+                                        <br/>Realized that an android game would be the best way for me to start.
+                                        <br/>Wanted to make a Flappy-Bird-difficulty type thing.
+                                        <br/>Came up with this <small>(lmao...)</small>.
+                                        <br/>Even I hate playing it.
+                                        <br/>But got lots of people to try it.
+                                        <br/>They all hated it as well.
+                                        <br/>I think it worked out quite well...I'm now closer to being a real game dev, i think.
+                                        <br/><a target="_blank" href="https://play.google.com/store/apps/details?id=com.BerZerkGames.GreedyBubble&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">Find it on the Play Store!</a>
+                                    </p>
+                                );}
+                            }/>
+                        <PortfolioEntry 
+                            featuredImage={"https://tehjnitodev.files.wordpress.com/2016/12/2016-03-31-11_14_10-le_fps3_teejae_06.png?w=1000&h="}
+                            title="FPS[3]"
+                            techStack="Unity3D & Photon Networking"
+                            renderDescription={
+                                () => {return(
+                                    <p>
+                                        <br/>Created in 2014/15 (I think), this was the very first project I made with the Unity game engine.
+                                        <br/>This was a Single/Online Multiplayer First-Person Shooter and it served as a means of me getting to
+                                        know the game engine and learning game development principles.
+                                        <br/>This was never a completed project, but building & playing it was very fun never-the-less and 
+                                        it holds a very special place in my heart muscles &mdash; hence, why I am displaying it publicly.
+                                    </p>
+                                );}
+                            }/>
+                    </div>
                     <div class="tab-pane fade" id="portfolio-photo" role="tabpanel" aria-labelledby="portfolio-photo-tab">3</div>
                 </div>
             </section>

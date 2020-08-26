@@ -2,27 +2,9 @@ import React from 'react';
 import grdplz from './img/grdplz.png';
 
 
-export default function WebPortfolio() {
+export default function MobilePortfolio() {
     return(
         <div className="col page-padding">
-            <section className="row portfolio-item">
-                <section className="col-md-6 portfolio-item-img">
-                    <img className="shadow" src="https://tehjnito.surge.sh/_ASSETS/_IMG/Portfolio/WebDev/webja.jpg"/>
-                </section>
-                <section className="col-md-6 portfolio-item-desc">
-                    <h3 className="title">webja</h3>
-                    <br/>
-                    <small>
-                        <p>
-                            Created in 2017/18, this was a website which allowed people to find and/or advertise across six different categories to the Jamaican population specifically.
-                        </p>
-                        <hr/>
-                        <p>
-                            <strong><i>- Tech Stack: AngularJS, PHP</i></strong>
-                        </p>
-                    </small>
-                </section>
-            </section>
             <section className="row portfolio-item">
                 <section className="col-md-6 portfolio-item-img">
                     <img className="shadow" src={grdplz}/>

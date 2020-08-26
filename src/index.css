@@ -176,6 +176,9 @@ code {
   background-image: url(./img/stars.png);
 }
 
+#portfolio-tabContent{
+  padding-top:40px;
+}
 #PortfolioTab a{
   font-size: 16px;
   font-weight:700;
@@ -205,6 +208,54 @@ code {
 #PortfolioTab a.active span.fa-stack{
   color:#000;
   opacity:0.65;
+}
+
+.portfolio-item{
+  padding: 10px;
+  margin-bottom:50px !important;
+  border-bottom: 1px solid #f5f5f5;
+  /* background-color:#fafafa; */
+}
+.portfolio-item-img {
+  padding:0 !important;
+}
+.portfolio-item-img > img{
+  position:relative;
+  top:50%;
+  transform: translateY(-50%);
+  display:block;
+  width:100%;
+  max-width:500px;
+  margin: 0 auto;
+  border-radius: 7px;
+  margin-bottom:40px;
+}
+.portfolio-item-desc{
+  padding:0 !important;
+  text-align:center;
+  /* background-color:#a29bfe;
+  color:#fff;
+  padding: 20px 10px 10px 10px; */
+}
+.portfolio-item-desc > *{
+  display:inline-block;
+  max-width:500px;
+}
+.portfolio-item-desc .title{
+  display:inline-block;
+  text-transform:uppercase;
+  /* color:#b3a2e8; */
+  /* color:#444; */
+  font-weight:700;
+}
+.portfolio-item-desc .title::after{
+  content:"";
+  display:block;
+  margin: 0 auto 5px auto;
+  width:40%;height:2px;
+  max-width:40px;
+  background-color:#a29bfe;
+  opacity:0.5;
 }
 
 /** ANIMATIONS **/
