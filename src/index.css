@@ -11,8 +11,8 @@ body {
 
 body::before {
   content: "";
-  /* background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png"); */
-  background-image: url("https://www.transparenttextures.com/patterns/absurdity.png");
+  background-image: url("./img/graphdots-tile.png");
+  /* background-image: url("https://www.transparenttextures.com/patterns/absurdity.png"); */
   position: absolute;
   top: 0px;
   right: 0px;
@@ -177,6 +177,8 @@ code {
 }
 
 #PortfolioTab a{
+  font-size: 16px;
+  font-weight:700;
   background:none !important;
 }
 #PortfolioTab a:not(.active){
@@ -188,6 +190,9 @@ code {
   color:#fff;
   text-transform: uppercase;
   background-color: #b3a2e8;
+}
+#PortfolioTab a:not(.active) > span{
+  box-shadow: none !important;
 }
 #PortfolioTab a span.fa-stack{
   top: -3px;

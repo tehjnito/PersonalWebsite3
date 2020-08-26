@@ -1,6 +1,7 @@
 import React from 'react';
 import { Helmet } from "react-helmet";
 import arrow1 from './img/arrow1.png';
+import WebPortfolio from './portfolio-web';
 
 function Home() {
   return (
@@ -137,7 +138,9 @@ function Home() {
                     </li>
                 </ul>
                 <div class="tab-content" id="portfolio-tabContent">
-                    <div class="tab-pane fade show active" id="portfolio-web" role="tabpanel" aria-labelledby="portfolio-web-tab">1</div>
+                    <div class="tab-pane fade show active" id="portfolio-web" role="tabpanel" aria-labelledby="portfolio-web-tab">
+                        <WebPortfolio/>
+                    </div>
                     <div class="tab-pane fade" id="portfolio-mobile" role="tabpanel" aria-labelledby="portfolio-mobile-tab">2</div>
                     <div class="tab-pane fade" id="portfolio-game" role="tabpanel" aria-labelledby="portfolio-game-tab">2</div>
                     <div class="tab-pane fade" id="portfolio-photo" role="tabpanel" aria-labelledby="portfolio-photo-tab">3</div>
