@@ -6,7 +6,7 @@ export default function PortfolioEntry(props) {
         <div className="col page-padding">
             <section className="row portfolio-item">
                 <section className="col-md-6 portfolio-item-img">
-                    <img className="shadow" src={props.featuredImage}/>
+                    <img className={"shadow"+(props.featuredImageClass?" "+props.featuredImageClass: "")} src={props.featuredImage}/>
                 </section>
                 <section className="col-md-6 portfolio-item-desc">
                     <h3 className="title">{props.title || ''}</h3>

@@ -5,12 +5,14 @@ import grdplz from './img/grdplz.png';
 import WebPortfolio from './portfolio-web';
 import MobilePortfolio from './portfolio-mobile';
 import PortfolioEntry from './portfolio-entry';
+import PhotoCompare from './photo-compare';
+
 
 function Home() {
   return (
     <div className="row page-padding">
         <Helmet>
-            <title>Home - Tehjéan Powell</title>
+            {/* <title>Home - 👊 Tehjéan Powell</title> */}
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
             {/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/fontawesome.min.css" integrity="sha512-8jdwayz5n8F2cnW26l9vpV6+yGOcRAqz6HTu+DQ3FtVIAts2gTdlFZOGpYhvBMXkWEgxPN3Y22UWyZXuDowNLA==" crossorigin="anonymous" /> */}
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
@@ -62,17 +64,17 @@ function Home() {
                     <span className="flag flag-jm"></span>
                 </p>
                 <p>
-                    <span class="emoji emoji-grad"></span>&nbsp;I'm a 2018 NCU (Northern Caribbean University) Graduate
+                    <span className="emoji emoji-grad"></span>&nbsp;I'm a 2018 NCU (Northern Caribbean University) Graduate
                     <br/>
                 </p>
                 <p><br/><hr/><br/></p>
                 <p>
                     Outside of tech stuff...
                     <ul className="list-style-none">
-                        <li>I enjoy listening to and making music <span class="emoji emoji-music1"></span></li>
-                        <li>watching anime <span class="emoji emoji-tv"></span></li>
-                        <li>watching cars go <i>"vrrroooommmm"</i> <span class="emoji emoji-md emoji-car1"></span></li>
-                        <li>and staring into a star-filled night sky <span class="emoji emoji-stars1"></span></li>
+                        <li>I enjoy listening to and making music <span className="emoji emoji-music1"></span></li>
+                        <li>watching anime <span className="emoji emoji-tv"></span></li>
+                        <li>watching cars go <i>"vrrroooommmm"</i> <span className="emoji emoji-md emoji-car1"></span></li>
+                        <li>and staring into a star-filled night sky <span className="emoji emoji-stars1"></span></li>
                     </ul>
                 </p>
             </section>
@@ -99,50 +101,50 @@ function Home() {
                 <h2 className="title text-gradient-1"><i>#</i>Portfolio</h2>
             </header>
             <section style={{minHeight:'600px'}} className="content">
-                <ul class="nav nav-pills flex-column flex-md-row nav-justified pt-3 mb-3" id="PortfolioTab" role="tablist">
-                    <li class="nav-item">
-                        <a class="nav-link active" data-toggle="pill" href="#portfolio-web" role="tab" aria-controls="portfolio-web" aria-selected="true">
+                <ul className="nav nav-pills flex-column flex-md-row nav-justified pt-3 mb-3" id="PortfolioTab" role="tablist">
+                    <li className="nav-item">
+                        <a className="nav-link active" data-toggle="pill" href="#portfolio-web" role="tab" aria-controls="portfolio-web" aria-selected="true">
                             <span className="shadow">
-                                <span class="fa-stack">
-                                    <i class="fa fa-sm fa-code text-bold"></i>
+                                <span className="fa-stack">
+                                    <i className="fa fa-sm fa-code text-bold"></i>
                                 </span>
                                 <span className="text">&nbsp;Web Dev</span>
                             </span>
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-toggle="pill" href="#portfolio-mobile" role="tab" aria-controls="portfolio-mobile" aria-selected="false">
+                    <li className="nav-item">
+                        <a className="nav-link" data-toggle="pill" href="#portfolio-mobile" role="tab" aria-controls="portfolio-mobile" aria-selected="false">
                             <span className="shadow">
-                                <span class="fa-stack">
-                                    <i class="fa fa-sm fa-android"></i>
+                                <span className="fa-stack">
+                                    <i className="fa fa-sm fa-android"></i>
                                 </span>
                                 <span className="text">&nbsp;Mobile Dev</span>
                             </span>
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-toggle="pill" href="#portfolio-game" role="tab" aria-controls="portfolio-game" aria-selected="false">
+                    <li className="nav-item">
+                        <a className="nav-link" data-toggle="pill" href="#portfolio-game" role="tab" aria-controls="portfolio-game" aria-selected="false">
                             <span className="shadow">
-                                <span class="fa-stack">
-                                    <i class="fa fa-sm fa-gamepad"></i>
+                                <span className="fa-stack">
+                                    <i className="fa fa-sm fa-gamepad"></i>
                                 </span>
                                 <span className="text">&nbsp;Game Dev</span>
                             </span>
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-toggle="pill" href="#portfolio-photo" role="tab" aria-controls="portfolio-photo" aria-selected="false">
+                    <li className="nav-item">
+                        <a className="nav-link" data-toggle="pill" href="#portfolio-photo" role="tab" aria-controls="portfolio-photo" aria-selected="false">
                             <span className="shadow">
-                                <span class="fa-stack">
-                                    <i class="fa fa-sm fa-camera-retro"></i>
+                                <span className="fa-stack">
+                                    <i className="fa fa-sm fa-camera-retro"></i>
                                 </span>
                                 <span className="text">&nbsp;Photo-Editing</span>
                             </span>
                         </a>
                     </li>
                 </ul>
-                <div class="tab-content" id="portfolio-tabContent">
-                    <div class="tab-pane fade show active" id="portfolio-web" role="tabpanel" aria-labelledby="portfolio-web-tab">
+                <div className="tab-content" id="portfolio-tabContent">
+                    <div className="tab-pane fade show active" id="portfolio-web" role="tabpanel" aria-labelledby="portfolio-web-tab">
                         <PortfolioEntry 
                             featuredImage={"https://tehjnito.surge.sh/_ASSETS/_IMG/Portfolio/WebDev/webja.jpg"}
                             title="Webja"
@@ -167,7 +169,7 @@ function Home() {
                                 );}
                             }/>
                     </div>
-                    <div class="tab-pane fade" id="portfolio-mobile" role="tabpanel" aria-labelledby="portfolio-mobile-tab">
+                    <div className="tab-pane fade" id="portfolio-mobile" role="tabpanel" aria-labelledby="portfolio-mobile-tab">
                         <PortfolioEntry 
                             featuredImage={grdplz}
                             title="GrandPlaza"
@@ -181,7 +183,7 @@ function Home() {
                                 );}
                             }/>
                     </div>
-                    <div class="tab-pane fade" id="portfolio-game" role="tabpanel" aria-labelledby="portfolio-game-tab">
+                    <div className="tab-pane fade" id="portfolio-game" role="tabpanel" aria-labelledby="portfolio-game-tab">
                         <PortfolioEntry 
                             featuredImage={"https://tehjnito.surge.sh/_ASSETS/_IMG/Portfolio/GameDev/block-fight-thumb.png"}
                             title="Block Fight"
@@ -229,6 +231,7 @@ function Home() {
                             }/>
                         <PortfolioEntry 
                             featuredImage={"https://tehjnito.surge.sh/_ASSETS/_IMG/Portfolio/GameDev/dotsandrings-thumb.png"}
+                            featuredImageclassName="sm"
                             title="Dots and Rings"
                             techStack="Unity3D"
                             renderDescription={
@@ -245,6 +248,7 @@ function Home() {
                             }/>
                         <PortfolioEntry 
                             featuredImage={"https://tehjnito.surge.sh/_ASSETS/_IMG/Portfolio/GameDev/greedy-bubble-thumb.png"}
+                            featuredImageclassName="sm"
                             title="Greedy Bubble"
                             techStack="Unity3D"
                             renderDescription={
@@ -280,7 +284,30 @@ function Home() {
                                 );}
                             }/>
                     </div>
-                    <div class="tab-pane fade" id="portfolio-photo" role="tabpanel" aria-labelledby="portfolio-photo-tab">3</div>
+                    <div className="tab-pane fade" id="portfolio-photo" role="tabpanel" aria-labelledby="portfolio-photo-tab">
+                        <section className="row">
+                            <span className="col-md-6 col-lg-4 item">
+                                <PhotoCompare
+                                    before="https://source.unsplash.com/random?tree&w=1500"
+                                    after="https://source.unsplash.com/random?car&w=1500"/>
+                            </span>
+                            <span className="col-md-6 col-lg-4 item">
+                                <PhotoCompare
+                                    before="https://source.unsplash.com/random?beach&w=1500"
+                                    after="https://source.unsplash.com/random?park&w=1500"/>
+                            </span>
+                            <span className="col-md-6 col-lg-4 item">
+                                <PhotoCompare
+                                    before="https://source.unsplash.com/random?school&w=1500"
+                                    after="https://source.unsplash.com/random?concert&w=1500"/>
+                            </span>
+                            <span className="col-md-6 col-lg-4 item">
+                                <PhotoCompare
+                                    before="https://source.unsplash.com/random?ship&w=1500"
+                                    after="https://source.unsplash.com/random?plane&w=1500"/>
+                            </span>
+                        </section>
+                    </div>
                 </div>
             </section>
         </section>
@@ -337,7 +364,8 @@ const Styles = {
         animationDuration: '3s',
         animationTimingFunction: 'ease-in',
         animationIterationCount: 'infinite',
-        // animationDirection: 'alternate-reverse',
+        animationDirection: 'alternate-reverse',
+        animationTimingFunction:'cubic-bezier(1, -1, 0, 2)',
         backgroundColor: 'rgba(0,0,0,0.01)'
     },
     imageContainer: {
