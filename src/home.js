@@ -231,7 +231,7 @@ function Home() {
                             }/>
                         <PortfolioEntry 
                             featuredImage={"https://tehjnito.surge.sh/_ASSETS/_IMG/Portfolio/GameDev/dotsandrings-thumb.png"}
-                            featuredImageclassName="sm"
+                            featuredImageClassName="sm"
                             title="Dots and Rings"
                             techStack="Unity3D"
                             renderDescription={
@@ -248,7 +248,7 @@ function Home() {
                             }/>
                         <PortfolioEntry 
                             featuredImage={"https://tehjnito.surge.sh/_ASSETS/_IMG/Portfolio/GameDev/greedy-bubble-thumb.png"}
-                            featuredImageclassName="sm"
+                            featuredImageClassName="sm"
                             title="Greedy Bubble"
                             techStack="Unity3D"
                             renderDescription={
