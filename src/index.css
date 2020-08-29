@@ -19,6 +19,10 @@ body::before {
   bottom: 0px;
   left: 0px;
 }
+::selection{
+  color:#fff;
+  background-color:#a29bfe;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -230,8 +234,10 @@ code {
   border-radius: 7px;
   margin-bottom:40px;
 }
+.portfolio-item-img > img.sm{
+  max-width:300px;
+}
 .portfolio-item-desc{
-  padding:0 !important;
   text-align:center;
   /* background-color:#a29bfe;
   color:#fff;
@@ -256,6 +262,10 @@ code {
   max-width:40px;
   background-color:#a29bfe;
   opacity:0.5;
+}
+
+#portfolio-photo .item{
+  margin-bottom: 20px;
 }
 
 /** ANIMATIONS **/
