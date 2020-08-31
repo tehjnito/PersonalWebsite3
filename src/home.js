@@ -2,8 +2,6 @@ import React from 'react';
 import { Helmet } from "react-helmet";
 import arrow1 from './img/arrow1.png';
 import grdplz from './img/grdplz.png';
-import WebPortfolio from './portfolio-web';
-import MobilePortfolio from './portfolio-mobile';
 import PortfolioEntry from './portfolio-entry';
 import PhotoCompare from './photo-compare';
 
@@ -86,13 +84,13 @@ function Home() {
             <section className="content xshadow-lg xtext-italic text-center">
                 <h4><br/><strong>These are the tools I use to create my tech</strong><br/><br/></h4>
                 <ul className="list-style-none">
-                    <li><a target="_blank" href="https://nodejs.org/en/">Nodejs</a> <small>(ExpressJS)</small></li>
-                    <li><a target="_blank" href="https://reactjs.org/">ReactJS</a> <small>(Nextjs/ReactNative)</small></li>
-                    <li><a target="_blank" href="https://www.mysql.com/">MySQL</a></li>
-                    <li><a target="_blank" href="https://firebase.google.com/">Firebase</a> <small>(Authentication/Storage/Notifications)</small></li>
-                    <li><a target="_blank" href="https://unity.com/">Unity3D</a></li>
-                    <li><a target="_blank" href="https://github.com/puppeteer/puppeteer/">Puppeteer</a> <small>(Don't ask lol)</small></li>
-                    <li><a target="_blank" href="https://laravel.com/">PHP/Laravel</a> <small>(sometimes-ish)</small></li>
+                    <li><a target="_blank" rel="noopener noreferrer" href="https://nodejs.org/en/">Nodejs</a> <small>(ExpressJS)</small></li>
+                    <li><a target="_blank" rel="noopener noreferrer" href="https://reactjs.org/">ReactJS</a> <small>(Nextjs/ReactNative)</small></li>
+                    <li><a target="_blank" rel="noopener noreferrer" href="https://www.mysql.com/">MySQL</a></li>
+                    <li><a target="_blank" rel="noopener noreferrer" href="https://firebase.google.com/">Firebase</a> <small>(Authentication/Storage/Notifications)</small></li>
+                    <li><a target="_blank" rel="noopener noreferrer" href="https://unity.com/">Unity3D</a></li>
+                    <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/puppeteer/puppeteer/">Puppeteer</a> <small>(Don't ask lol)</small></li>
+                    <li><a target="_blank" rel="noopener noreferrer" href="https://laravel.com/">PHP/Laravel</a> <small>(sometimes-ish)</small></li>
                 </ul>
             </section>
         </section>
@@ -193,8 +191,8 @@ function Home() {
                                     <p>
                                         Created in 2016, this was a single/couch multiplayer platform fighter for PC.
                                         <br/><i>This kinda got stuck in the prototying phase and was never truly finished :(</i>
-                                        <br/>This was also submitted to <a target="_blank" href="https://thegdwc.com/">GDWC</a> for the 2016 game jam.
-                                        <br/><a target="_blank" href="https://www.youtube.com/watch?v=pF0JjcBq8y8">Watch the gameplay trailer on YouTube</a>
+                                        <br/>This was also submitted to <a target="_blank" rel="noopener noreferrer" href="https://thegdwc.com/">GDWC</a> for the 2016 game jam.
+                                        <br/><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=pF0JjcBq8y8">Watch the gameplay trailer on YouTube</a>
                                     </p>
                                 );}
                             }/>
@@ -242,7 +240,7 @@ function Home() {
                                         <br/>Had a <i>"colorful"</i> idea.
                                         <br/>Wanted to see how fast I could build it.
                                         <br/>Got it working in a day, spent the rest of the week trying to find good sounds for it and then added the screen recording feature.
-                                        <br/><a target="_blank" href="https://play.google.com/store/apps/details?id=com.Teejae.DotsandRings&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">Find it on the Play Store!</a>
+                                        <br/><a target="_blank" rel="noopener noreferrer" href="https://play.google.com/store/apps/details?id=com.Teejae.DotsandRings&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">Find it on the Play Store!</a>
                                     </p>
                                 );}
                             }/>
@@ -264,7 +262,7 @@ function Home() {
                                         <br/>But got lots of people to try it.
                                         <br/>They all hated it as well.
                                         <br/>I think it worked out quite well...I'm now closer to being a real game dev, i think.
-                                        <br/><a target="_blank" href="https://play.google.com/store/apps/details?id=com.BerZerkGames.GreedyBubble&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">Find it on the Play Store!</a>
+                                        <br/><a target="_blank" rel="noopener noreferrer" href="https://play.google.com/store/apps/details?id=com.BerZerkGames.GreedyBubble&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">Find it on the Play Store!</a>
                                     </p>
                                 );}
                             }/>
@@ -293,18 +291,18 @@ function Home() {
                             </span>
                             <span className="col-md-6 col-lg-4 item">
                                 <PhotoCompare
-                                    before="https://source.unsplash.com/random?beach&w=1500"
-                                    after="https://source.unsplash.com/random?park&w=1500"/>
+                                    before="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2FAlex%20Thomas%20Yunnan%20Photo___OG.jpg?alt=media&token=80b6e072-f14d-41b7-b7de-3a70cd5a8b8f"
+                                    after="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2FAlex%20Thomas%20Yunnan%20Photo__EDITED.jpg?alt=media&token=bf0ffbd5-91d5-4461-87eb-44b6d185fbad"/>
                             </span>
                             <span className="col-md-6 col-lg-4 item">
                                 <PhotoCompare
-                                    before="https://source.unsplash.com/random?school&w=1500"
-                                    after="https://source.unsplash.com/random?concert&w=1500"/>
+                                    before="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2Fburnt_hills___OG.jpg?alt=media&token=56258916-be01-4ad6-add8-6e7044396247"
+                                    after="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2Fburnt_hills__EDITED.jpg?alt=media&token=e2595257-455b-4b2b-a6da-598e8669ae4d"/>
                             </span>
                             <span className="col-md-6 col-lg-4 item">
                                 <PhotoCompare
-                                    before="https://source.unsplash.com/random?ship&w=1500"
-                                    after="https://source.unsplash.com/random?plane&w=1500"/>
+                                    before="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2Fcorvette_ftw___OG.jpg?alt=media&token=eebc451c-2567-4637-9755-95b58a1aa1cb"
+                                    after="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2Fcorvette_ftw__EDITED.jpg?alt=media&token=4948fca5-4aea-4a1a-b0bc-25d90d9a1e2b"/>
                             </span>
                         </section>
                     </div>
