@@ -58,7 +58,7 @@ export default class PhotoCompare extends React.Component{
                 onMouseLeave={this._onSliderMouseUp}
                 onMouseUp={this._onSliderMouseUp}>
                 <span style={Styles.imageContainer}>
-                    <span style={{...Styles.imageToCompare, ...{backgroundImage: 'url('+(this.props.after? this.props.after : '')+')'}}}></span>
+                    <span style={{...Styles.imageToCompare, ...{backgroundImage: 'url("'+(this.props.after? this.props.after : '')+'")'}}}></span>
                     <span style={{...Styles.label, ...{right: '0px'}}}>after</span>
                 </span>
                 <span ref={this.overlay} 
@@ -69,7 +69,7 @@ export default class PhotoCompare extends React.Component{
                         style={
                             {...Styles.imageToCompare, 
                             ...{width: (this.state.overlayImageWidthPercentage || 50).toString()+'%'}, 
-                            ...{backgroundImage: 'url('+(this.props.before? this.props.before : '')+')'}}}></span>
+                            ...{backgroundImage: 'url("'+(this.props.before? this.props.before : '')+'")'}}}></span>
                     <span style={{...Styles.label, ...{left: '0px'}}}>before</span>
                 </span>
                 <span style={{...Styles.sliderBar, ...{left: (this.state.sliderLeftPercentage || '0').toString()+'%'}}}>
