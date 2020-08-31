@@ -14,9 +14,15 @@ const cumulativeOffset = function(element) {
 
 export default class PhotoCompare extends React.Component{
 
+    _isSliderDragging = false;
+
+    _componentOffset = {
+        top: 0, left: 0
+    }
+
     _onComparerMouseMove = (e) => {
-        if(this.state.isDragging){
-            let tmpSliderCoord = e.pageX - cumulativeOffset(this.compareContainer.current).left;
+        if(this._isSliderDragging){
+            let tmpSliderCoord = e.pageX - this._componentOffset.left;
             let tmpSliderPercentage = (tmpSliderCoord / this.compareContainer.current.offsetWidth) * 100;
             tmpSliderPercentage = Math.clamp(tmpSliderPercentage, 1, 98);
             this.setState({
@@ -28,11 +34,12 @@ export default class PhotoCompare extends React.Component{
     }
 
     _onSliderMouseDown = (e) => {
-        this.setState({isDragging: true});
+        this._componentOffset = cumulativeOffset(this.compareContainer.current);
+        this._isSliderDragging = true;
     }
 
     _onSliderMouseUp = (e) => {
-        this.setState({isDragging: false});
+        this._isSliderDragging = false;
     }
 
     constructor(props){
