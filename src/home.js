@@ -286,23 +286,38 @@ function Home() {
                         <section className="row">
                             <span className="col-md-6 col-lg-4 item">
                                 <PhotoCompare
-                                    before="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2FAl%20Shariar%20Apon%20(2)___OG.jpg?alt=media&token=e2e43136-814f-4951-8c51-d422987e8a83"
-                                    after="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2FAl%20Shariar%20Apon%20(2)__EDITED.jpg?alt=media&token=a58406d2-f6da-4481-ac35-b959d7b8241f"/>
+                                    before="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2FAl%20Shariar%20Apon%20(2)___OG_scaleddown.jpg?alt=media&token=ca113313-35ff-46b5-8f24-37cfe2310ce5"
+                                    after="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2FAl%20Shariar%20Apon%20(2)__EDITED_scaleddown.jpg?alt=media&token=1d87e123-adae-4c84-820c-5c19a0c5f8e8"/>
                             </span>
                             <span className="col-md-6 col-lg-4 item">
                                 <PhotoCompare
-                                    before="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2FAlex%20Thomas%20Yunnan%20Photo___OG.jpg?alt=media&token=80b6e072-f14d-41b7-b7de-3a70cd5a8b8f"
-                                    after="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2FAlex%20Thomas%20Yunnan%20Photo__EDITED.jpg?alt=media&token=bf0ffbd5-91d5-4461-87eb-44b6d185fbad"/>
+                                    before="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2FAlex%20Thomas%20Yunnan%20Photo___OG_scaleddown.jpg?alt=media&token=dddf32c4-7d7b-4e98-81b4-8644aa83f57a"
+                                    after="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2FAlex%20Thomas%20Yunnan%20Photo__EDITED_scaleddown.jpg?alt=media&token=aaeedd39-cb22-4d62-93b8-403dab88b071"/>
                             </span>
                             <span className="col-md-6 col-lg-4 item">
                                 <PhotoCompare
-                                    before="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2Fburnt_hills___OG.jpg?alt=media&token=56258916-be01-4ad6-add8-6e7044396247"
-                                    after="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2Fburnt_hills__EDITED.jpg?alt=media&token=e2595257-455b-4b2b-a6da-598e8669ae4d"/>
+                                    before="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2Fburnt_hills___OG_scaleddown.jpg?alt=media&token=424be078-b8e3-42f9-ab09-70b05dd73256"
+                                    after="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2Fburnt_hills__EDITED_scaleddown.jpg?alt=media&token=8b30c69a-ef3b-48b1-a204-ce90daf0c77b"/>
                             </span>
                             <span className="col-md-6 col-lg-4 item">
                                 <PhotoCompare
-                                    before="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2Fcorvette_ftw___OG.jpg?alt=media&token=eebc451c-2567-4637-9755-95b58a1aa1cb"
-                                    after="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2Fcorvette_ftw__EDITED.jpg?alt=media&token=4948fca5-4aea-4a1a-b0bc-25d90d9a1e2b"/>
+                                    before="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2Fcorvette_ftw___OG_scaleddown.jpg?alt=media&token=bfff6271-ff99-4a03-a26e-7a7170306bd8"
+                                    after="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2Fcorvette_ftw__EDITED_scaleddown.jpg?alt=media&token=56550665-0f50-470f-a189-cbb7ecae16ad"/>
+                            </span>
+                            <span className="col-md-6 col-lg-4 item">
+                                <PhotoCompare
+                                    before="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2Fdinner_outside___OG_scaleddown.jpg?alt=media&token=4fd6ddc1-8333-4203-bf92-810d81d10700"
+                                    after="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2Fdinner_outside__EDITED_scaleddown.jpg?alt=media&token=a4c279b2-1ee6-4b00-95cf-19bec7cb3915"/>
+                            </span>
+                            <span className="col-md-6 col-lg-4 item">
+                                <PhotoCompare
+                                    before="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2Fjust_married01___OG_scaleddown.jpg?alt=media&token=95018e5f-31a6-42bc-8d7a-e52677c6671d"
+                                    after="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2Fjust_married01__EDITED_scaleddown.jpg?alt=media&token=9f6083c0-c3b8-4489-b41c-f975b3d62ff7"/>
+                            </span>
+                            <span className="col-md-6 col-lg-4 item">
+                                <PhotoCompare
+                                    before="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2Flake_01___OG_scaleddown.jpg?alt=media&token=07502fd3-5610-4ba2-97d5-d89cc6a4cc38"
+                                    after="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2Flake01__EDITED_scaleddown.jpg?alt=media&token=43abb78c-3f28-451b-9220-0e4ce3f6db74"/>
                             </span>
                         </section>
                     </div>

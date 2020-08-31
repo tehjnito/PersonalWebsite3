@@ -148,6 +148,7 @@ const Styles = {
         padding: '3px',
         fontSize: '14px',
         color:'#444',
+        fontWeight: 'bold',
         textTransform:'uppercase',
         backgroundColor: 'rgba(255,255,255, 0.3)'
     }
