@@ -288,8 +288,8 @@ function Home() {
                         <section className="row">
                             <span className="col-md-6 col-lg-4 item">
                                 <PhotoCompare
-                                    before="https://source.unsplash.com/random?tree&w=1500"
-                                    after="https://source.unsplash.com/random?car&w=1500"/>
+                                    before="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2FAl%20Shariar%20Apon%20(2)___OG.jpg?alt=media&token=e2e43136-814f-4951-8c51-d422987e8a83"
+                                    after="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2FAl%20Shariar%20Apon%20(2)__EDITED.jpg?alt=media&token=a58406d2-f6da-4481-ac35-b959d7b8241f"/>
                             </span>
                             <span className="col-md-6 col-lg-4 item">
                                 <PhotoCompare
@@ -365,7 +365,7 @@ const Styles = {
         animationTimingFunction: 'ease-in',
         animationIterationCount: 'infinite',
         animationDirection: 'alternate-reverse',
-        animationTimingFunction:'cubic-bezier(1, -1, 0, 2)',
+        // animationTimingFunction:'cubic-bezier(1, -1, 0, 2)',
         backgroundColor: 'rgba(0,0,0,0.01)'
     },
     imageContainer: {
