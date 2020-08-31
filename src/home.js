@@ -286,6 +286,11 @@ function Home() {
                         <section className="row">
                             <span className="col-md-6 col-lg-4 item">
                                 <PhotoCompare
+                                    before="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2Fthe_chair___OG_scaleddown.jpg?alt=media&token=af1c11e5-ea3d-4aae-a2b2-ae21f977f8ee"
+                                    after="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2Fthe_chair__EDITED_scaleddown.jpg?alt=media&token=e5a6aecb-1921-4d79-bc7e-2e7be892cb04"/>
+                            </span>
+                            <span className="col-md-6 col-lg-4 item">
+                                <PhotoCompare
                                     before="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2FAl%20Shariar%20Apon%20(2)___OG_scaleddown.jpg?alt=media&token=ca113313-35ff-46b5-8f24-37cfe2310ce5"
                                     after="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2FAl%20Shariar%20Apon%20(2)__EDITED_scaleddown.jpg?alt=media&token=1d87e123-adae-4c84-820c-5c19a0c5f8e8"/>
                             </span>
@@ -318,6 +323,11 @@ function Home() {
                                 <PhotoCompare
                                     before="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2Flake_01___OG_scaleddown.jpg?alt=media&token=07502fd3-5610-4ba2-97d5-d89cc6a4cc38"
                                     after="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2Flake01__EDITED_scaleddown.jpg?alt=media&token=43abb78c-3f28-451b-9220-0e4ce3f6db74"/>
+                            </span>
+                            <span className="col-md-6 col-lg-4 item">
+                                <PhotoCompare
+                                    before="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2Fproduct_canjuice___OG_scaleddown.jpg?alt=media&token=89779848-7ef6-44d9-8330-cabb90cd0dbb"
+                                    after="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2Fproduct_canjuice__EDITED_scaleddown.jpg?alt=media&token=e2639192-1cc2-45ce-933b-7ce4bc668232"/>
                             </span>
                         </section>
                     </div>
