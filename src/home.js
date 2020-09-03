@@ -196,7 +196,7 @@ function Home() {
                                     </p>
                                 );}
                             }/>
-                        <PortfolioEntry 
+                        {/* <PortfolioEntry 
                             featuredImage={"https://tehjnito.surge.sh/_ASSETS/_IMG/Portfolio/GameDev/squash-thumb.gif"}
                             title="Squash"
                             techStack="Unity3D"
@@ -213,7 +213,7 @@ function Home() {
                                         <br/>You, the player are given three special abilities to help you out in the match.
                                     </p>
                                 );}
-                            }/>
+                            }/> */}
                         <PortfolioEntry 
                             featuredImage={"https://tehjnito.surge.sh/_ASSETS/_IMG/Portfolio/GameDev/tanksalot-thumb.gif"}
                             title="Tanks-a-lot"
@@ -227,7 +227,7 @@ function Home() {
                                     </p>
                                 );}
                             }/>
-                        <PortfolioEntry 
+                        {/* <PortfolioEntry 
                             featuredImage={"https://tehjnito.surge.sh/_ASSETS/_IMG/Portfolio/GameDev/dotsandrings-thumb.png"}
                             featuredImageClassName="sm"
                             title="Dots and Rings"
@@ -243,7 +243,7 @@ function Home() {
                                         <br/><a target="_blank" rel="noopener noreferrer" href="https://play.google.com/store/apps/details?id=com.Teejae.DotsandRings&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">Find it on the Play Store!</a>
                                     </p>
                                 );}
-                            }/>
+                            }/> */}
                         <PortfolioEntry 
                             featuredImage={"https://tehjnito.surge.sh/_ASSETS/_IMG/Portfolio/GameDev/greedy-bubble-thumb.png"}
                             featuredImageClassName="sm"
