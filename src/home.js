@@ -57,7 +57,7 @@ function Home() {
             <header className="section-header">
                 <h2 className="title text-gradient-1"><i className="hidden">#</i>About Me</h2>
             </header>
-            <section className="content xshadow-lg xtext-italic text-center">
+            <section className="content shadow-lg xtext-italic text-center">
                 <p>I'm Tehjéan and I'm an application dev from Jamaica
                     <span className="flag flag-jm"></span>
                 </p>
@@ -65,7 +65,7 @@ function Home() {
                     <span className="emoji emoji-grad"></span>&nbsp;I'm a 2018 NCU (Northern Caribbean University) Graduate
                     <br/>
                 </p>
-                <p><br/><hr/><br/></p>
+                <p><hr/></p>
                 <p>
                     Outside of tech stuff...
                     <ul className="list-style-none">
@@ -81,7 +81,7 @@ function Home() {
             <header className="section-header">
                 <h2 className="title text-gradient-1"><i className="hidden">#</i>TechStack</h2>
             </header>
-            <section className="content xshadow-lg xtext-italic text-center">
+            <section className="content shadow-lg xtext-italic text-center">
                 <h4><br/><strong>These are the tools I use to create my tech</strong><br/><br/></h4>
                 <ul className="list-style-none">
                     <li><a target="_blank" rel="noopener noreferrer" href="https://nodejs.org/en/">Nodejs</a> <small>(ExpressJS)</small></li>
@@ -98,7 +98,7 @@ function Home() {
             <header className="section-header">
                 <h2 className="title text-gradient-1"><i className="hidden">#</i>Portfolio</h2>
             </header>
-            <section style={{minHeight:'600px'}} className="content">
+            <section style={{minHeight:'600px'}} className="content shadow-lg">
                 <ul className="nav nav-pills flex-column flex-md-row nav-justified pt-3 mb-3" id="PortfolioTab" role="tablist">
                     <li className="nav-item">
                         <a className="nav-link active" data-toggle="pill" href="#portfolio-web" role="tab" aria-controls="portfolio-web" aria-selected="true">
