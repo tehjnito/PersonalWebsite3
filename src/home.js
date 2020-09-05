@@ -16,9 +16,9 @@ function Home() {
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
             <script async src="https://cdnjs.cloudflare.com/ajax/libs/emojione/4.5.0/lib/js/emojione.min.js" integrity="sha512-E2Ai/A9+KcoBm0lvfnd5krbr7TWUigQGWTfcoMToNpfmCvQKkZdTbpwyIM4PFbCGMtSmMjE/DAXGjVXpWGdFaQ==" crossorigin="anonymous"></script>
         </Helmet>
-        <section id="MainNavigation" className="col-12">
-            <nav className="col">
-                <ul className="float-right">
+        <section id="MainNavigation" className="">
+            <nav className="">
+                <ul className="">
                     <li><a href="#AboutMe">About Me</a></li>
                     &nbsp;<big className="middot"><strong>&middot;</strong></big>&nbsp;
                     <li><a href="#Portfolio">Portfolio</a></li>
@@ -37,7 +37,7 @@ function Home() {
                 </h1>
             </header>
         </section>
-        <section className="col-12">
+        <section className="col-12 p-0">
             <section style={Styles.imageFirstContainer}>
                 <section style={{...Styles.imagePulse, ...{animationDelay:'0.5s',animationDuration:'2s'}}}></section>
                 <section style={Styles.imagePulse}></section>
@@ -55,9 +55,9 @@ function Home() {
         </section>
         <section id="AboutMe" className="xcol-12 xoffset-md-3 col-lg-6 page-section">
             <header className="section-header">
-                <h2 className="title text-gradient-1"><i>#</i>About_Me</h2>
+                <h2 className="title text-gradient-1"><i className="hidden">#</i>About Me</h2>
             </header>
-            <section className="content xshadow-lg xtext-italic text-center">
+            <section className="content shadow-lg xtext-italic text-center">
                 <p>I'm Tehjéan and I'm an application dev from Jamaica
                     <span className="flag flag-jm"></span>
                 </p>
@@ -65,7 +65,7 @@ function Home() {
                     <span className="emoji emoji-grad"></span>&nbsp;I'm a 2018 NCU (Northern Caribbean University) Graduate
                     <br/>
                 </p>
-                <p><br/><hr/><br/></p>
+                <p><hr/></p>
                 <p>
                     Outside of tech stuff...
                     <ul className="list-style-none">
@@ -79,9 +79,9 @@ function Home() {
         </section>
         <section id="TechStack" className="xcol-12 xoffset-md-3 col-lg-6 page-section">
             <header className="section-header">
-                <h2 className="title text-gradient-1"><i>#</i>My_TechStack</h2>
+                <h2 className="title text-gradient-1"><i className="hidden">#</i>TechStack</h2>
             </header>
-            <section className="content xshadow-lg xtext-italic text-center">
+            <section className="content shadow-lg xtext-italic text-center">
                 <h4><br/><strong>These are the tools I use to create my tech</strong><br/><br/></h4>
                 <ul className="list-style-none">
                     <li><a target="_blank" rel="noopener noreferrer" href="https://nodejs.org/en/">Nodejs</a> <small>(ExpressJS)</small></li>
@@ -96,9 +96,9 @@ function Home() {
         </section>
         <section id="Portfolio" className="col-12 page-section">
             <header className="section-header">
-                <h2 className="title text-gradient-1"><i>#</i>Portfolio</h2>
+                <h2 className="title text-gradient-1"><i className="hidden">#</i>Portfolio</h2>
             </header>
-            <section style={{minHeight:'600px'}} className="content">
+            <section style={{minHeight:'600px'}} className="content shadow-lg">
                 <ul className="nav nav-pills flex-column flex-md-row nav-justified pt-3 mb-3" id="PortfolioTab" role="tablist">
                     <li className="nav-item">
                         <a className="nav-link active" data-toggle="pill" href="#portfolio-web" role="tab" aria-controls="portfolio-web" aria-selected="true">
@@ -359,8 +359,8 @@ const Styles = {
         position: 'relative',
         // top:'calc(50% - 190px)',left: 'calc(50% - 190px)',
         // transform: 'transalte(50%,50%)',
-        width:'360px',
-        height: '360px',
+        width:'340px',
+        height: '340px',
         padding: '10px',
         margin: '10px auto 30px auto',
         display:'block'
