@@ -8,7 +8,7 @@ import PhotoCompare from './photo-compare';
 
 function Home() {
   return (
-    <div className="row page-padding">
+    <div id="Home" className="row page-padding">
         <Helmet>
             {/* <title>Home - 👊 Tehjéan Powell</title> */}
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
@@ -19,9 +19,9 @@ function Home() {
         <section id="MainNavigation" className="">
             <nav className="">
                 <ul className="">
-                    <li><a href="#AboutMe">About Me</a></li>
+                    <li><a href="#AboutMe" data-spy="scroll" data-target="#AboutMe" data-offset="100">About Me</a></li>
                     &nbsp;<big className="middot"><strong>&middot;</strong></big>&nbsp;
-                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Portfolio" data-offset="100">Portfolio</a></li>
                     &nbsp;<big className="middot"><strong>&middot;</strong></big>&nbsp;
                     <li><a href="javascript:void(0)">Resumé</a></li>
                 </ul>
@@ -38,7 +38,7 @@ function Home() {
             </header>
         </section>
         <section className="col-12 p-0">
-            <section style={Styles.imageFirstContainer}>
+            <section id="DpContainer" style={Styles.imageFirstContainer}>
                 <section style={{...Styles.imagePulse, ...{animationDelay:'0.5s',animationDuration:'2s'}}}></section>
                 <section style={Styles.imagePulse}></section>
                 <section className="anim" style={Styles.imageSecondContainer}>
@@ -334,6 +334,7 @@ function Home() {
                 </div>
             </section>
         </section>
+        <a id="BackToTop" href="#Home" className="shadow"><i className="fa fa-arrow-up"></i></a>
     </div>
   );
 }
