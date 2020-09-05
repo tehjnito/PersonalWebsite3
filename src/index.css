@@ -351,7 +351,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     color:#a29bfe;
   }
   #DpContainer{
-    width: 340px !important;height: 340px !important;
+    width: 360px !important;height: 360px !important;
   }
   .page-section{
     padding: 20px 40px !important;
