@@ -360,8 +360,8 @@ const Styles = {
         position: 'relative',
         // top:'calc(50% - 190px)',left: 'calc(50% - 190px)',
         // transform: 'transalte(50%,50%)',
-        width:'340px',
-        height: '340px',
+        width:'360px',
+        height: '360px',
         padding: '10px',
         margin: '10px auto 30px auto',
         display:'block'
