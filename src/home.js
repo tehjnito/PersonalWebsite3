@@ -53,7 +53,7 @@ function Home() {
             </section>
             <hr/>
         </section>
-        <section id="AboutMe" className="xcol-12 xoffset-md-3 col-lg-6 page-section">
+        <section id="AboutMe" className="xcol-12 xoffset-md-3 col-lg-12 page-section">
             <header className="section-header">
                 <h2 className="title text-gradient-1"><i className="hidden">#</i>About Me</h2>
             </header>
@@ -77,7 +77,7 @@ function Home() {
                 </p>
             </section>
         </section>
-        <section id="TechStack" className="xcol-12 xoffset-md-3 col-lg-6 page-section">
+        <section id="TechStack" className="xcol-12 xoffset-md-3 col-lg-12 page-section">
             <header className="section-header">
                 <h2 className="title text-gradient-1"><i className="hidden">#</i>TechStack</h2>
             </header>
