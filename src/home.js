@@ -306,6 +306,11 @@ function Home() {
                             </span>
                             <span className="col-md-6 col-lg-4 item">
                                 <PhotoCompare
+                                    before="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2FPhotoRetouching%2FIMG_2909___OG_scaleddown.jpg?alt=media&token=b9cf7c0d-cc48-4739-88f1-bf0bad9e6fd5"
+                                    after="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2FPhotoRetouching%2FIMG_2909__EDITED_scaleddown.jpg?alt=media&token=f28ec7e7-9726-4a7b-939c-36b2b8887e99"/>
+                            </span>
+                            <span className="col-md-6 col-lg-4 item">
+                                <PhotoCompare
                                     before="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2Fcorvette_ftw___OG_scaleddown.jpg?alt=media&token=bfff6271-ff99-4a03-a26e-7a7170306bd8"
                                     after="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2Fcorvette_ftw__EDITED_scaleddown.jpg?alt=media&token=56550665-0f50-470f-a189-cbb7ecae16ad"/>
                             </span>
@@ -318,6 +323,11 @@ function Home() {
                                 <PhotoCompare
                                     before="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2Fjust_married01___OG_scaleddown.jpg?alt=media&token=95018e5f-31a6-42bc-8d7a-e52677c6671d"
                                     after="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2Fjust_married01__EDITED_scaleddown.jpg?alt=media&token=9f6083c0-c3b8-4489-b41c-f975b3d62ff7"/>
+                            </span>
+                            <span className="col-md-6 col-lg-4 item">
+                                <PhotoCompare
+                                    before="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2FPhotoRetouching%2FSkinRetouching02-02___OG_scaleddown.jpg?alt=media&token=13e611a7-b94e-43e7-896e-31133f2bd635"
+                                    after="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2FPhotoRetouching%2FSkinRetouching02-02__EDITED_scaleddown.jpg?alt=media&token=cc1a60e2-e304-4668-9cc7-dae9965a1efb"/>
                             </span>
                             <span className="col-md-6 col-lg-4 item">
                                 <PhotoCompare
