@@ -23,7 +23,7 @@ function Home() {
                     &nbsp;<big className="middot"><strong>&middot;</strong></big>&nbsp;
                     <li><a href="#Portfolio" data-offset="100">Portfolio</a></li>
                     &nbsp;<big className="middot"><strong>&middot;</strong></big>&nbsp;
-                    <li><a href="javascript:void(0)">Resumé</a></li>
+                    <li><a href={process.env.PUBLIC_URL + "/_TehjeanPowell_2020_Resume3.pdf"}>Resumé</a></li>
                 </ul>
             </nav>
         </section>
