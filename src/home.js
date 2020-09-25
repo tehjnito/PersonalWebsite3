@@ -339,6 +339,11 @@ function Home() {
                                     before="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2Fproduct_canjuice___OG_scaleddown.jpg?alt=media&token=89779848-7ef6-44d9-8330-cabb90cd0dbb"
                                     after="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2Fproduct_canjuice__EDITED_scaleddown.jpg?alt=media&token=e2639192-1cc2-45ce-933b-7ce4bc668232"/>
                             </span>
+                            <span className="col-md-6 col-lg-4 item">
+                                <PhotoCompare
+                                    before="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2Fsignature%20edits%20free%20raws%20girl1___OG_scaleddown.png?alt=media&token=d7241bff-5e5a-4682-886a-32ff26e4d968"
+                                    after="https://firebasestorage.googleapis.com/v0/b/personalwebsite-af7df.appspot.com/o/portfolio-photography%2Fsignature%20edits%20free%20raws%20girl1__EDITED_scaleddown.png?alt=media&token=6d8db4d4-9ad6-49f2-9922-d7c06426e1d0"/>
+                            </span>
                         </section>
                     </div>
                 </div>
