@@ -45,7 +45,6 @@
       $(document).ready(function(){
         // alert('jQuery')
         $(document).scroll(function() {
-          console.log('yoo scrolling: '+($(document).scrollTop()));
           $("#BackToTop").css({
             display: ($(document).scrollTop() > 600)? 'block' : 'none'
           })
