@@ -2,6 +2,14 @@ import React from 'react';
 import { Helmet } from "react-helmet";
 import arrow1 from './img/arrow1.png';
 import grdplz from './img/grdplz.png';
+import logo_js from './img/tech-logos/javascript-js-seeklogo.com.svg';
+import logo_nodejs from './img/tech-logos/nodejs-seeklogo.com 2.svg';
+import logo_reactjs from './img/tech-logos/react-seeklogo.com.svg';
+import logo_nextjs from './img/tech-logos/nextjs-logo-seeklogo.com.png';
+import logo_reactnative from './img/tech-logos/reactnative_logo.svg';
+import logo_mysql from './img/tech-logos/MySQL.png';
+import logo_unity from './img/tech-logos/unity-seeklogo.com.svg';
+import logo_firebase from './img/tech-logos/firebase-seeklogo.com.svg';
 import PortfolioEntry from './portfolio-entry';
 import PhotoCompare from './photo-compare';
 
@@ -19,11 +27,13 @@ function Home() {
         <section id="MainNavigation" className="">
             <nav className="">
                 <ul className="">
-                    <li><a href="#AboutMe" data-spy="scroll" data-target="#AboutMe" data-offset="100">About Me</a></li>
+                    <li><a href="#TechStack" data-spy="scroll" data-target="#AboutMe" data-offset="100">Techstack</a></li>
                     &nbsp;<big className="middot"><strong>&middot;</strong></big>&nbsp;
                     <li><a href="#Portfolio" data-offset="100">Portfolio</a></li>
                     &nbsp;<big className="middot"><strong>&middot;</strong></big>&nbsp;
-                    <li><a href={process.env.PUBLIC_URL + "/_TehjeanPowell_2020_Resume4.pdf"}>Resumé</a></li>
+                    <li><a target="_blank" href={process.env.PUBLIC_URL + "/_TehjeanPowell_2020_Resume4.pdf"}>Resumé</a></li>
+                    &nbsp;<big className="middot"><strong>&middot;</strong></big>&nbsp;
+                    <li><a href="https://github.com/tehjnito" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
                 </ul>
             </nav>
         </section>
@@ -37,7 +47,7 @@ function Home() {
                 </h1>
             </header>
         </section>
-        <section className="col-12 p-0">
+        <section className="col-12 p-0" style={{marginBottom:'100px'}}>
             <section id="DpContainer" style={Styles.imageFirstContainer}>
                 <section style={{...Styles.imagePulse, ...{animationDelay:'0.5s',animationDuration:'2s'}}}></section>
                 <section style={Styles.imagePulse}></section>
@@ -53,11 +63,11 @@ function Home() {
             </section>
             <hr/>
         </section>
-        <section id="AboutMe" className="xcol-12 xoffset-md-3 col-lg-12 page-section">
+        <section id="AboutMe" className="d-none xcol-12 xoffset-md-3 col-lg-12 page-section">
             <header className="section-header">
                 <h2 className="title text-gradient-1"><i className="hidden">#</i>About Me</h2>
             </header>
-            <section className="content shadow-lg xtext-italic text-center">
+            <section className="content xshadow-lg xtext-italic text-center">
                 <p>I'm Tehjéan and I'm an application dev from Jamaica
                     <span className="flag flag-jm"></span>
                 </p>
@@ -81,9 +91,9 @@ function Home() {
             <header className="section-header">
                 <h2 className="title text-gradient-1"><i className="hidden">#</i>TechStack</h2>
             </header>
-            <section className="content shadow-lg xtext-italic text-center">
-                <h4><br/><strong>These are the tools I use to create my tech</strong><br/><br/></h4>
-                <ul className="list-style-none">
+            <section className="content xshadow-lg xtext-italic text-center">
+                <h4><br/><strong>My Most Frequently Used Tools</strong><br/><br/></h4>
+                <ul className="d-none list-style-none">
                     <li><a target="_blank" rel="noopener noreferrer" href="https://nodejs.org/en/">Nodejs</a> <small>(ExpressJS)</small></li>
                     <li><a target="_blank" rel="noopener noreferrer" href="https://reactjs.org/">ReactJS</a> <small>(Nextjs/ReactNative)</small></li>
                     <li><a target="_blank" rel="noopener noreferrer" href="https://www.mysql.com/">MySQL</a></li>
@@ -92,13 +102,23 @@ function Home() {
                     <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/puppeteer/puppeteer/">Puppeteer</a> <small>(Don't ask lol)</small></li>
                     <li><a target="_blank" rel="noopener noreferrer" href="https://laravel.com/">PHP/Laravel</a> <small>(sometimes-ish)</small></li>
                 </ul>
+                <ul id="TechStackImageList" className='list-style-none'>
+                    <li><img title="Javascript" src={logo_js} alt="Javascript Logo"/><a target='_blank' href="https://developer.mozilla.org/en-US/docs/Web/javascript">Javascript</a></li>
+                    <li><img title="NodeJS" src={logo_nodejs} alt="NodeJS Logo"/><a target='_blank' href="https://nodejs.org/">NodeJS</a></li>
+                    <li><img title="ReactJS" src={logo_reactjs} alt="ReactJS Logo"/><a target='_blank' href="https://reactjs.org/">ReactJS</a></li>
+                    <li><img title="ReactNative" src={logo_reactnative} style={{transform:'scale(0.9)'}} alt="ReactNative Logo"/><a target='_blank' href="https://reactnative.dev/">ReactNative</a></li>
+                    <li><img title="NextJS" src={logo_nextjs} style={{transform:'translateY(-5px)'}} alt="NextJS Logo"/><a target='_blank' href="https://nextjs.org/">NextJS</a></li>
+                    <li><img title="MySQL" src={logo_mysql} style={{transform:'translateY(2px)'}} alt="MySQL Logo"/><a target='_blank' href="https://www.mysql.com/">MySQL</a></li>
+                    <li><img title="Firebase" src={logo_firebase} style={{transform:'scale(0.6) translateY(3px)'}} alt="Firebase Logo"/><a target='_blank' href="https://firebase.google.com/">Firebase</a></li>
+                    <li><img title="Unity3D Game Engine" src={logo_unity} style={{transform:'scale(1.3) translateY(-13px)'}} alt="Unity Game Engine Logo"/><a target='_blank' href="https://unity.com/">Unity</a></li>
+                </ul>
             </section>
         </section>
         <section id="Portfolio" className="col-12 page-section">
             <header className="section-header">
                 <h2 className="title text-gradient-1"><i className="hidden">#</i>Portfolio</h2>
             </header>
-            <section style={{minHeight:'600px'}} className="content shadow-lg">
+            <section style={{minHeight:'600px'}} className="content xshadow-lg">
                 <ul className="nav nav-pills flex-column flex-md-row nav-justified pt-3 mb-3" id="PortfolioTab" role="tablist">
                     <li className="nav-item">
                         <a className="nav-link active" data-toggle="pill" href="#portfolio-web" role="tab" aria-controls="portfolio-web" aria-selected="true">
@@ -348,6 +368,9 @@ function Home() {
                     </div>
                 </div>
             </section>
+        </section>
+        <section id="PageFooter">
+            <p>&copy;&nbsp;{(new Date()).getFullYear()}</p>
         </section>
         <a id="BackToTop" href="#Home" className="shadow"><i className="fa fa-arrow-up"></i></a>
     </div>
