@@ -2,6 +2,7 @@ import React from 'react';
 import { Helmet } from "react-helmet";
 import arrow1 from './img/arrow1.png';
 import grdplz from './img/grdplz.png';
+import fixedheader from './img/FH-LogoFull.png';
 import logo_js from './img/tech-logos/javascript-js-seeklogo.com.svg';
 import logo_nodejs from './img/tech-logos/nodejs-seeklogo.com 2.svg';
 import logo_reactjs from './img/tech-logos/react-seeklogo.com.svg';
@@ -183,6 +184,22 @@ function Home() {
                                     <p>
                                         Created in 2019/20, GrandPlaza was a forum where people would be able to share product/services in groups.
                                         <br/><br/>This platform consisted of an android app and a view-only website.
+                                    </p>
+                                );}
+                            }/>
+                        <PortfolioEntry 
+                            featuredImage={fixedheader}
+                            title="Fixed-Header"
+                            techStack="HTML, CSS, JavaScript | Backend -> NodeJS/MongoDB"
+                            renderDescription={
+                                () => {return(
+                                    <p>
+                                        Made in 2022. Extremly simple browser extension. Extremely satifying results (for me...).
+                                        <br/>It keeps the main navigation bar of certain websites visible regardless of how far down a page you scroll <small><em>(looking at you amazon.com)</em></small>.
+                                        <br/><small><em className="text-muted">why aren't all websites created like this? idk...</em></small>
+                                        <br/><br/>
+                                        <a target='_blank' href="https://addons.mozilla.org/en-US/firefox/addon/fixed-header/"><i className='fa fa-link'></i>&nbsp;View Fixed-Header in the Firefox add-on store</a>
+                                        <br/><a target='_blank' href="https://chrome.google.com/webstore/detail/fixed-header/lapaggdajkeoghocfiikgkcfncedpook"><i className='fa fa-link'></i>&nbsp;View Fixed-Header in the Chrome webstore</a>
                                     </p>
                                 );}
                             }/>
